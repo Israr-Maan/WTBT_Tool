@@ -30,22 +30,20 @@ st.set_page_config(
 # Station configuration - Update these URLs to your actual Git repository
 GITHUB_BASE_URL = "https://raw.githubusercontent.com/your-username/your-repo/main/data/"
 STATIONS = {
-    "Station_01_Karachi": "station_01_karachi.csv",
-    "Station_02_Lahore": "station_02_lahore.csv",
-    "Station_03_Islamabad": "station_03_islamabad.csv",
-    "Station_04_Peshawar": "station_04_peshawar.csv",
-    "Station_05_Quetta": "station_05_quetta.csv",
-    "Station_06_Multan": "station_06_multan.csv",
-    "Station_07_Faisalabad": "station_07_faisalabad.csv",
-    "Station_08_Hyderabad": "station_08_hyderabad.csv",
-    "Station_09_Gujranwala": "station_09_gujranwala.csv",
-    "Station_10_Sialkot": "station_10_sialkot.csv",
-    "Station_11_Sargodha": "station_11_sargodha.csv",
-    "Station_12_Bahawalpur": "station_12_bahawalpur.csv",
-    "Station_13_Sukkur": "station_13_sukkur.csv",
-    "Station_14_Larkana": "station_14_larkana.csv",
-    "Station_15_Nawabshah": "station_15_nawabshah.csv",
-    "Station_16_Jacobabad": "station_16_jacobabad.csv"
+    "Station_01_Thatta": "thatta_with_wetbulb.csv",
+    "Station_02_Tando_Jam": "tando_jam_with_wetbulb.csv",
+    "Station_03_Sukkur": "sukkur_with_wetbulb.csv",
+    "Station_04_Sakrand": "sakrand_with_wetbulb.csv",
+    "Station_05_Rohri": "rohri_with_wetbulb.csv",
+    "Station_06_Padidan": "padidan_with_wetbulb.csv",
+    "Station_07_Nawabshah": "nawabshah_with_wetbulb.csv",
+    "Station_08_Moen_Jo_Daro": "moen_jo_daro_with_wetbulb.csv",
+    "Station_09_Mithi": "mithi_with_wetbulb.csv",
+    "Station_10_Mirpur_Khas": "mirpur_khas_with_wetbulb.csv",
+    "Station_11_Larkana": "larkana_with_wetbulb.csv",
+    "Station_12_Liamari": "kiamari_with_wetbulb.csv",
+    "Station_13_Jacobabad": "jacobabad_with_wetbulb.csv",
+    "Station_14_Hyderabad": "hyderabad_with_wetbulb.csv"
 }
 
 # Custom themes
