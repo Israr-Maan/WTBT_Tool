@@ -28,7 +28,7 @@ st.set_page_config(
 )
 
 # Station configuration - Update these URLs to your actual Git repository
-GITHUB_BASE_URL = "https://github.com/Israr-Maan/WTBT_Tool/tree/master/data/"
+GITHUB_BASE_URL = "https://github.com/Israr-Maan/WTBT_Tool/tree/master/"
 STATIONS = {
     "Station_01_Thatta": "thatta_with_wetbulb.csv",
     "Station_02_Tando_Jam": "tando_jam_with_wetbulb.csv",
