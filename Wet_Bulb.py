@@ -1408,7 +1408,7 @@ def main():
                 # Include forecast data if requested
                 if include_forecast and 'forecast_data' in st.session_state:
                     forecast_df = st.session_state['forecast_data'].copy()
-                    forecast_df['station
+                    forecast_df['station'] = forecast_station
             if st.button("📥 Download Data", type="primary"):
                 # Prepare export data
                 export_df = filtered_df.copy()
